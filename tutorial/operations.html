@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Document sans nom</title>
+<link href="./style.css" type="text/css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Song+Myung|ZCOOL+KuaiLe" rel="stylesheet">
+
+
+</style></head>
+
+<body>
+
+	<div class="container">
+
+		<nav class="header">
+			<h1 class="title">Comparative Analyses of Proteins in Bacterial</h1>
+			<ul>	
+			  <li><a href="index.html">home</a></li>
+			  <li><a href="newProject.html">File menu</a></li>
+			  <li><a href="database.html">Database menu</a></li>
+			  <li><a href="operations.html">Operations menu</a></li>
+			</ul>
+		</nav>  
+		<!-- Banner Section -->
+		<div class="banner">
+			<a href="#"><img src="images/caprib.png" alt="Insérer le logo ici" name="Insert_logo" width="257" height="81" id="Insert_logo"/></a> 
+		</div>
+		<!-- content Section -->
+    
+		<div class="content">
+
+			<h1>Operations menu</h1>
+			<p>Subsequently to database feeding, there is two  options. First, &ldquo;combinations&rdquo; to perform operations aiming to comparing two  groups of organisms to obtain list of variations in conserved proteins. Second,  that is dependant to achievement of the first one, is &ldquo;CDD NCBI&rdquo; in order to compare  these lists to conserved domains in CDD databases in order to rank variations that  could functionally affect proteins.</p>
+			<img class="picture" src="images/menuOperationsm.png" width="257" height="98" alt="menuOp" />
+			<h2>Combinations</h2>
+			<p>After clicking combination, the user can set  the database created previously that will be used (here in &quot;nelongata0&quot;)  for analyses. All the organisms in the database will be displayed as shown in  the picture below.</p>
+			<img class="picture" src="images/operationsCaprib.png" width="60%" height="60%" alt="Combinations caprib" />
+			<p>&nbsp;</p>    
+			<p>The user will have to classify the organisms into  two groups based on the phylogeny (ex: bacteria that diverge before/after the  coccoid transition). The reference bacterium is always in group A. Therefore  other organisms need to be separated in accordance. In the example, bacteria  that diverge before the coccoid transition (bacilli) will be place in group A  (as is the reference). The bacteria that diverge after this node (coccus) are  placed in group B.</p>
+				
+			<img class="picture" src="images/operationsCaprib2.png"  width="60%" height="60%" alt="groups" />
+    
+			<p>Next, the user can filter the proteins by  percentage of identity, (herein at least 60% identical in all species) and then  click &quot;query&quot;. This will set the database as 60%.</p>
+			<p><br/>Both  groups can be compared based on 6 different analyses:</p>
+			<div class="list">      
+			<ol ><li>IvsD: Search for identical amino acid positions in group A but different in B<br /></li>
+			<li>ISvsD: Search for amino acid positions identical or similar in group A but different in group B<br /></li>
+			<li>IvsS: Search for identical amino acid positions in group A but similar in group B<br /></li>
+			<li>Gap In: Search for the position of a gap that is in group A but not in group B<br /></li>
+			<li>Gap Out: Search for the position of a gap that is in group B but not in group A<br /></li>
+			<li>Stop codon: Search for the position of a stop codon in group B</li></ol>
+			</div>    
+			<h2>Results</h2>
+			<p>The user will have to save and name the results  file in the &ldquo;Results&rdquo; folder. The extension &quot;.CSV&quot; need to be added. The  results can be displayed on the screen for a preview, but the user can always open  the file as a spreadsheet in Excel or Calc.</p>
+			
+       
+			<img class="picture" src="images/operationsResult.png"  width="60%" height="60%" alt="report" />
+       
+			<p>As example, the protein with locus tag NELON_RS09935 has a variation in the AA at position 285 This AA is identic in the group A but different in the group B. All these results can be subsequently ranked to sort those with high chance of functional impacts (see “CDD NCBI”).</p>
+  
+			<h3>CDD NCBI</h3>
+    
+			<p>By clicking this option in operation, a window will appear. In the left panel, the user can add the results file obtained before. By clicking the “CDD search” button. CAPRIB compare the results obtained with the position of conserved domains in the CDD NCBI database.</p>
+
+			<img class="picture" src="images/cdd.png" width="50%" height="50%" alt="cddncbi" />
+    
+  
+			<p>This will produce a merged file that shows only the proteins having variations into a conserved domain.</p>
+      
+			<img class="picture" src="images/cdd2.png" width="50%" height="50%" alt="cddncbi" />
+        
+    
+			<p>By clicking the CDD NCBI button the user will be send to the NCBI site where he could download the Features file for the concerned proteins and save it into our “Results” folder.</p>    
+        
+			<img class="picture"src="images/cddncbi.png" width="50%" height="50%" alt="cddncbi" />
+      
+    
+			<p>This file can be used in CAPRIB as shown bellow and by clicking the “Merge” button the program will generate a Feature merged file in the Results folder. This file contain only AA variations that are placed in a conserved CCD domain.</p> 
+	
+			<img class="picture" src="images/features.png" width="452" height="341" alt="features" />  
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>  
+		<!-- end .content --></div>
+		<div class="footer">		
+			<img  src="images/INRS_logo_RVB (1).png" alt="inrs" class="institute" >
+		<!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

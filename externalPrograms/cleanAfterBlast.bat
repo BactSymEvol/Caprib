@@ -1,0 +1,34 @@
+::cleaning bash file
+cd externalPrograms\
+del  *.txt
+del  *.fasta
+del  *.fa
+del  *.dna
+del  *.fna
+del  *.faa
+del  *.nhr
+del  *.nin
+del  *.nsd
+del  *.nnd
+del  *.nni
+del  *.nsi
+del  *.nsq
+del  *.fa
+del  *.dna
+del  *.faa
+del  *.nog
+
+cd ..\
+del  *.nhr
+del  *.nin
+del  *.nsd
+del  *.nnd
+del  *.nni
+del  *.nsi
+del  *.nsq
+del  *.fa
+del  *.dna
+del  *.faa
+del  *.nog
+del *.ntm
+del  *.fna
