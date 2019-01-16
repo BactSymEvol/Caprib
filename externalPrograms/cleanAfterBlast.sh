@@ -15,3 +15,4 @@ rm -r *.fa
 rm -r *.dna
 rm -r *.txt
 rm -r *fna
+rm -r *.faa
