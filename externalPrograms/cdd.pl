@@ -16,7 +16,7 @@ my $bwrpsb = "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi";
 ###############################################################################
 my $outputf=pop(@ARGV);
 my $dmode=pop(@ARGV);
-my @queries = <STDIN>;
+my @queries = pop(@ARGV);
 my $havequery = 0;
 
 
