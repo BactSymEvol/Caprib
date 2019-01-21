@@ -16,7 +16,7 @@ my $bwrpsb = "https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi";
 ###############################################################################
 my $outputf=pop(@ARGV);
 my $dmode=pop(@ARGV);
-my @queries = pop(@ARGV);
+my @queries = <STDIN>;
 my $havequery = 0;
 
 
@@ -173,7 +173,7 @@ print "=========================================================================
 ###############################################################################
 # retrieve and display results
 ###############################################################################
-#my $outputf=$rid.".txt";#"ProteinMutationsRepport.txt";
+
 my $REPO;
 open($REPO, ">$outputf");
 
