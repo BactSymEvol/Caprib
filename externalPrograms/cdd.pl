@@ -18,7 +18,7 @@ my $outputf=pop(@ARGV);
 my $dmode=pop(@ARGV);
 my $inFile=pop(@ARGV);
 my $havequery = 0;
-print $inFile;
+
 my @queries;
 ##### ADAPTATION ##############################################################
 #extract list from in file
@@ -37,7 +37,7 @@ close($REP);
 ###############################################################################
 
 foreach my $line (@queries) {
-  print $line."\n";
+  
   if ($line =~ /[a-zA-Z0-9_]+/) {
     $havequery = 1;
   }
@@ -114,7 +114,7 @@ if ($opt_q) {
 my $rid;
 {
 
-  print map {; queries => $_ } @queries ;
+  #print map {; queries => $_ } @queries ;
   my $browser = LWP::UserAgent->new;
   my $response = $browser->post(
     $bwrpsb,
