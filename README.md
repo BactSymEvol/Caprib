@@ -15,7 +15,7 @@
 
 # License
 >CapriB
->Copyright (C) 2018  Juan Guerra, Frederic Veyrier
+>Copyright (C) 2018  Juan Guerra, Antony Vincent, Frederic Veyrier
 
 >This program is free software: you can redistribute it and/or modify
 >it under the terms of the GNU General Public License as published by
