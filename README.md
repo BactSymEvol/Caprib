@@ -1,5 +1,5 @@
 
-![](./images/caprib.png) 
+![](tutorial/images/caprib.png) 
 
 # Bioinformatics Tool for Comparative Analyses of Proteins In Bacteria
 
