@@ -45,6 +45,7 @@ java -jar Caprib2019.jar
 ```
 
 You can now browse CAPRIB and do your analyzes. 
+
 <img src="tutorial/images/5.png" width="400">
 
 For a detailed tutorial, click [here](http://fveyrier.profs.inrs.ca/Download/tutorial/index.html).
