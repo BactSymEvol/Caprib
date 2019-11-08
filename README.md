@@ -25,7 +25,7 @@ The password accound is: password_01!
 
 Once the virtual machine is installed and started, you must open a terminal, by clicking on the corresponding icon in the left menu, as in the following image.
 
-<img src="http://fveyrier.profs.inrs.ca/Download/tutorial/Images2/1a.png" width="200">
+<img src="tutorial/images/1a.png" width="200">
 
 Once the terminal is open, you can start xampp with the following command:
 ```sh
@@ -33,7 +33,7 @@ sudo /opt/lampp/manager-linux-x64.run
 ```
 After entering the password (password_01!), the xampp window will open, allowing you to start the processes.
 
-<img src="http://fveyrier.profs.inrs.ca/Download/tutorial/Images2/3.png" width="400">
+<img src="tutorial/images/3.png" width="400">
 
 You are now ready to start CAPRIB. To do this, you must go to the Caprib directory on the desktop with your device. The following command may allow you this action (from a fresh terminal):
 ```sh
@@ -45,7 +45,7 @@ java -jar Caprib2019.jar
 ```
 
 You can now browse CAPRIB and do your analyzes. 
-<img src="http://fveyrier.profs.inrs.ca/Download/tutorial/Images2/5.png" width="400">
+<img src="tutorial/images/5.png" width="400">
 
 For a detailed tutorial, click [here](http://fveyrier.profs.inrs.ca/Download/tutorial/index.html).
 
