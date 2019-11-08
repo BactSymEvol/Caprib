@@ -1,5 +1,5 @@
 
-![](http://fveyrier.profs.inrs.ca/Download/tutorial/Images2/caprib.png) 
+![](./images/caprib.png) 
 
 # Bioinformatics Tool for Comparative Analyses of Proteins In Bacteria
 
