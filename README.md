@@ -7,7 +7,7 @@
 
 CAPRIB efficiently finds through an easy-to-use graphical interface amino-acid changes that are strictly associated to the emergence of a phenotype. By comparing two groups of related species separated by a phenotypic switch, this program can pinpoint the evolutionary events, at the genus scale, that led to this transition. This tool, whose core is in Java, uses a relational database in SQL to store raw information, allowing users to quickly change the structure of groups and save projects. In order to help users decipher the impact of mutations, CAPRIB integrates statistical values (Grantham's distance and exchangeability score) that indicate the potential impact of one amino acid change for another. It is also possible to put in relation the detected mutations and the Conserved Domain Database (CDD) in order to have an insight on the structural involvements of the mutations. 
 
-<img src="http://fveyrier.profs.inrs.ca/Download/tutorial/Images2/Figure_1.png" width="400">
+<img src="tutorial/images/Figure_1.png" width="400">
 
 ## Dependencies
 - [Java](https://www.java.com/fr/download/help/index_installing.xml) 
